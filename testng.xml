@@ -6,15 +6,15 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 		<class name="scrapedata.Baseclass" />
-		<class name="scrapedata.HTensionAllergy" />
-		<class name="scrapedata.Hypertension" />
 		<class name="scrapedata.TOADDhypertension" />
-		<class name="scrapedata.Veg" />
-		<class name="scrapedata.VegAllergy" />
+		<class name="scrapedata.TOADDlunch" />
 		<class name="scrapedata.TOADDVeg" />
 		<class name="scrapedata.Lunch" />
+		<class name="scrapedata.Veg" />
+		<class name="scrapedata.Hypertension" />
 		<class name="scrapedata.LunchAllergy" />
-		<class name="scrapedata.TOADDlunch" />
+		<class name="scrapedata.Hypertension" />
+		<class name="scrapedata.VegAllergy" />
 		<class name="scrapedata.Vegsoup" />
 		</classes>
 	</test> <!-- Test -->
