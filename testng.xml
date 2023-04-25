@@ -6,7 +6,10 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 		<class name="scrapedata.Baseclass" />
-		<class name="scrapedata.Diabetesscrape" />
+		<class name="scrapedata.Hypothyrod" />
+		<class name="scrapedata.HypothyroidAllergies" />
+		<class name="scrapedata.HypothyroidAllRecipes" />
+		<class name="scrapedata.HypothyroidToAdd" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
