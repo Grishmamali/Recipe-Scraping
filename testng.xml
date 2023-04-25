@@ -5,8 +5,9 @@
 	<test thread-count="1" name="Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-		<class name="scrapedata.Baseclass" />
+	      
 		<class name="scrapedata.Diabetesscrape" />
+		<class name="scrapedata.ToaddDiabetes" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
