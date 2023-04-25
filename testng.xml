@@ -6,12 +6,25 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 		<class name="scrapedata.Baseclass" />
+
 		<class name="scrapedata.Hypothyrod" />
 		<class name="scrapedata.HypothyroidAllergies" />
 		<class name="scrapedata.HypothyroidAllRecipes" />
 		<class name="scrapedata.HypothyroidToAdd" />	      
 		<class name="scrapedata.Diabetesscrape" />
 		<class name="scrapedata.ToaddDiabetes" />
+
+		<class name="scrapedata.TOADDhypertension" />
+		<class name="scrapedata.TOADDlunch" />
+		<class name="scrapedata.TOADDVeg" />
+		<class name="scrapedata.Lunch" />
+		<class name="scrapedata.Veg" />
+		<class name="scrapedata.Hypertension" />
+		<class name="scrapedata.LunchAllergy" />
+		<class name="scrapedata.Hypertension" />
+		<class name="scrapedata.VegAllergy" />
+		<class name="scrapedata.Vegsoup" />
+
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
 import org.apache.poi.ss.usermodel.CellStyle;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.FillPatternType;
@@ -104,9 +103,11 @@ public class XLUtils {
 		fo=new FileOutputStream(path);
 		workbook.write(fo);		
 		workbook.close();
+
 		fi.close();
 		fo.close();
 	}
+	
 	
 	
 	public void fillGreenColor(String sheetName,int rownum,int colnum) throws IOException

@@ -24,6 +24,8 @@
 				<configuration>
 					<testFailureIgnore>true</testFailureIgnore>
 					<argLine></argLine>
+
+					
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
