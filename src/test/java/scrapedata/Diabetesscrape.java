@@ -1,6 +1,4 @@
 package scrapedata;
-
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -268,5 +266,4 @@ public class  Diabetesscrape extends Baseclass{
 	}
 
 }
-
 

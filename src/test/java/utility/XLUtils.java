@@ -103,11 +103,9 @@ public class XLUtils {
 		fo=new FileOutputStream(path);
 		workbook.write(fo);		
 		workbook.close();
-
 		fi.close();
 		fo.close();
 	}
-	
 	
 	
 	public void fillGreenColor(String sheetName,int rownum,int colnum) throws IOException

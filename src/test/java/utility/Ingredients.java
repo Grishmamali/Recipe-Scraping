@@ -76,9 +76,11 @@ public class Ingredients {
 		}
 	}
 
-	public enum DiabetesEliminate{
+
+	
+public enum DiabetesEliminate{
 		
-		Cream_of_rice("Cream of rice"),
+	Cream_of_rice("Cream of rice"),
 		rice_flour("rice flour"),
 	    rice_rava("rice rava"),
 		 corn("corn"),
@@ -179,7 +181,101 @@ public class Ingredients {
 		
 	}
 
+
+
+
+public enum PcosAllergies{
+
+	Milk("Milk"),
+	Soy("Soy"),
+	Egg("Egg"),
+	Sesame("Sesame"),
+	Peanuts("Peanuts"),
+	Walnut("Walnut"),
+	Almond("Almond"),
+	Hazelnut("Hazelnut"),
+	Pecan("Pecan"),
+	Cashew("Cashew"),		
+	Pistachio("Pistachio");
+
+	private String PcosAllergyValue;
+	PcosAllergies(String PcosAllergyValue) {
+		this.PcosAllergyValue=PcosAllergyValue;
+	}
+
+	public String getAllergyValue() {
+		return PcosAllergyValue;
+	}
 }
+public enum PcosEliminate{
+	
+	 White_bread("White bread"),
+	 Pasta("Pasta"),
+	soda("soda"),
+	flovoured_water("flavoured_water"),	
+	Soda("soda"),
+	Carbonated_beverages("carbonated_beverages"),
+	Burger("burger"),
+	Pizza("pizza"),
+	Fried_food("fried_food"),
+	gatorade("gatorade"),
+	 Apple_Juice("Apple_Juice"),
+	 orange_juice("Orange_Juice"),
+	 pomegranate_juice("pomegranate_juice"),
+	 margarines("margarines"),
+  Honey("Honey"),
+  Maple_syrup("Maple syrup"),
+  Jaggery("Jaggery"),
+	Sweets("Sweets"),
+	Candies("Candies"),
+	Jelly("Jelly"),
+	Chips("Chips"),
+	Palmolein_oil("Palmolein_oil"),
+	Vegetable_oil("vegetable_oil"),
+	Soyabean_oil("soyabean_oil"),
+	Canola_oil("Canola_oil"),
+	Rapseed_oil("rapseed_oil"),
+	Sunflower_oil("sunflower_oil"),
+	Safflower_oil("safflower_oil"),
+	Coffee("coffee"),
+	Fries("Fries"),
+	Gluten("Gluten"),
+	Soy("soy"),
+	Soy_sauce("soy_sauce"),
+	Soya_sauce("soya_sauce"),
+	Soy_milk("soy_milk"),
+	Tofu("tofu"),
+	Meat("meat"),
+	Processed_meat("processed_meat"),
+	Red_meat("Red_meat"),
+	Doughnuts("Doughnuts"),
+	cakes("cakes"),
+	pastries("pastries"), 
+	cookies("cookies"),
+	croissants("croissants"),
+	Sweetened_tea("Sweetened tea"), 
+	Sweetened_coffee("Sweetened coffee"),	
+	Packaged_snacks("Packaged snacks"),
+	Soft_drinks("Soft drinks"),
+	Milk("Milk"), butter("butter"), cheese("cheese");
+	
+
+
+	private String pcosvalue;
+
+	PcosEliminate(String pcosvalue) {
+		this.pcosvalue=pcosvalue;
+	}
+
+	public String pcosgetValue() {
+		return pcosvalue;
+	}
+	
+}
+}
+
+
+
 
 
 
