@@ -1,18 +1,24 @@
 package scrapedata;
 
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class Diabetesscrape extends Baseclass {
+import utility.Ingredients;
+import utility.XLUtils;
 
-	@Test 
-	
-	public void run()
-	
-	
-	
-	{
-	
-		
-		System.out.println("helo");
-	}
+
+
+public class  Diabetesscrape extends Baseclass{
+
 }
+
+
+
+

@@ -6,7 +6,8 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 		<class name="scrapedata.Baseclass" />
-		<class name="scrapedata.Diabetesscrape" />
+		<class name="scrapedata.Pcos" />
+		<class name="scrapedata.PcosToAdd" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
